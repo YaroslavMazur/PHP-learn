@@ -116,6 +116,46 @@
 }
 
 
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-container form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 400px;
+    color: white;
+    text-align: start;
+
+    padding: 30px;
+    background-color: var(--main-black);
+}
+
+.form-container form input{
+    width: 100%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding: 5px;
+}
+#regions{
+    text-align: center;
+    padding: 4px;
+    font-size: 15px;
+    margin:10px 10px 20px;
+}
+
+.Submit{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
 .footer{
     width: 100%;
     padding: 20px 0px;
@@ -129,4 +169,9 @@
 
 .footer p{
     color: white;
+}
+
+.ERROR{
+    margin: 10px 0px;
+    color: red;
 }
