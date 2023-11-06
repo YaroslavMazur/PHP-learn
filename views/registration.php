@@ -58,7 +58,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         
         
-        header("Location: index.php?action=main");
+        header("Location: index.php?action=login");
         die();
     }
 }
